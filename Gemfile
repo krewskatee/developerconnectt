@@ -11,7 +11,7 @@ group :development, :test do
 
 end
 # Use bootstrap library for styles
-gem 'bootstrap-sass', '~> 3.3.1'
+gem 'bootstrap-sass', '~> 3.3.4'
 
 # Use postgresql as the database for production
 group :production do

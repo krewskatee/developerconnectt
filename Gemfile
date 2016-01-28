@@ -10,6 +10,8 @@ group :development, :test do
   gem 'rspec-rails'
 
 end
+# Use bootstrap library for styles
+gem 'bootstrap-sass', '~> 3.3.1'
 
 # Use postgresql as the database for production
 group :production do

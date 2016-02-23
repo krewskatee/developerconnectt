@@ -10,8 +10,7 @@ group :development, :test do
   gem 'rspec-rails'
 
 end
-# Use bootstrap library for styles
-gem 'bootstrap-sass', '~> 3.3.4'
+
 
 # Use postgresql as the database for production
 group :production do
@@ -22,6 +21,10 @@ end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# Use bootstrap library for styles
+gem 'bootstrap-sass', '~> 3.3.4'
+#Use FontAwesome library for icons
+gem 'font-awesome-sass', '~> 4.5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
